@@ -32,37 +32,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <EditText
-<LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:orientation="vertical"
-        style="@style/MainLayoutStyle"
-        android:layout_gravity="top"
-        tools:context=".MainActivity">
-
-    <TextView
-            android:id="@+id/viewTXT"
-            android:textAlignment="center"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"
-            android:text="IMC"
-    />
-
-    <TextView
-            android:id="@+id/msgTXT"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"
-            android:text=""
-            android:textAlignment="center"
-    />
-
-    <ScrollView
-            style="@style/LinearLayoutStyle"
-            android:orientation="vertical"
-    >
-
-        <EditText
                 android:id="@+id/heightEDT"
                 style="@style/NumberInputStyle"
                 android:nextFocusDown="@id/weightEDT"
@@ -85,8 +54,3 @@
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
-                />
-
-    </ScrollView>
-
-</LinearLayout>
