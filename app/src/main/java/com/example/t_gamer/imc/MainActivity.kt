@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun renderError() {
         msgTXT.text = "Preencha todos os campos"
-        msgTXT.setTextColor(Color.parseColor("#f44336"))
+        msgTXT.setTextColor(Color.parseColor("#F44336"))
     }
 
     private fun formatValues(value: Editable): String {
@@ -45,6 +45,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setTextViewTXT(result: Double) {
+        msgTXT.setTextColor(Color.parseColor("#8BC34A"))
         if (result < 17) msgTXT.text = "Muito abaixo do peso"
         else if (result > 17 && result < 18.5) msgTXT.text = "Abaixo do peso"
         else if (result > 18.5 && result < 25) msgTXT.text = "Peso normal"
